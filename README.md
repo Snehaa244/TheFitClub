@@ -4,7 +4,6 @@ A modern and responsive fitness & gym website built using **React.js**, **Framer
 
 ![Hero Section](https://github.com/Snehaa244/Cover-Image/blob/main/image.PNG)
 
----
 
 ## 🚀 Features
 
@@ -15,7 +14,6 @@ A modern and responsive fitness & gym website built using **React.js**, **Framer
 - 📱 Fully responsive design across devices
 - 🎨 Styled with custom CSS and Framer Motion animations
 
----
 
 ## 🛠️ Tech Stack
 
@@ -26,7 +24,6 @@ A modern and responsive fitness & gym website built using **React.js**, **Framer
 - **EmailJS**
 - **CSS Modules**
 
----
 
 ## 📩 EmailJS Integration
 
@@ -37,7 +34,5 @@ The site uses [EmailJS](https://www.emailjs.com/) to send form submissions direc
 3. Add the credentials in your form component
 4. It handles form submissions via frontend securely
 
----
 
-## 📁 Folder Structure
 
