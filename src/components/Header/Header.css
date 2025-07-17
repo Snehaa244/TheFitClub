@@ -1,0 +1,62 @@
+/* Header container */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: relative;
+  z-index: 1000; /* ensures header stays on top */
+}
+
+/* Logo */
+.logo {
+  width: 10rem;
+  height: 3rem;
+}
+
+/* Header menu (default desktop view) */
+.header-menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  color: white;
+  z-index: 1000;
+  position: relative;
+}
+
+.header-menu > li:hover {
+  color: var(--orange);
+  cursor: pointer;
+}
+
+/* Hamburger menu icon (hidden by default) */
+.hamburger {
+  display: none;
+  color: white;
+  cursor: pointer;
+  z-index: 1001;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+  .header-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #1f1f1f;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1.5rem 2rem;
+    display: none;
+    border-radius: 0 0 0 10px;
+    z-index: 999; /* ensures menu appears on top of other sections */
+  }
+
+  .header-menu.open {
+    display: flex;
+  }
+
+  .hamburger {
+    display: block;
+  }
+}

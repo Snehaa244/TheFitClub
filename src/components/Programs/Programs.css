@@ -1,0 +1,95 @@
+:root {
+  --planCard: linear-gradient(210.41deg, #fa5042 1.14%, #ffa739 100.75%);
+}
+
+
+/* Main container */
+.Programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+/* Header text */
+.programs-header {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+  text-align: center;
+}
+
+.stroke-text {
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+}
+
+/* All cards container */
+.program-categories {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* Single card */
+.category {
+  display: flex;
+  flex-direction: column;
+  background-color: #808080; /* Gray background */
+  padding: 2rem;
+  gap: 1rem;
+  color: white;
+  width: 340px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  border-radius: 0; 
+}
+
+/* Hover state */
+.category:hover {
+  background-image: var(--planCard);
+  transform: scale(1.05);
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+
+/* Icon in card */
+.icon svg {
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+
+/* Card text */
+.category span {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: white;
+}
+
+/* Join Now section */
+.join-now {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  cursor: pointer;
+  margin-top: auto;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+}
+
+.join-now img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
