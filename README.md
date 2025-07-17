@@ -2,7 +2,7 @@
 
 A modern and responsive fitness & gym website built using **React.js**, **Framer Motion**, and **EmailJS**. The site features animated counters, smooth scrolling, and dynamic sections to attract users and collect contact/join requests without any backend.
 
-![Hero Section](./src/assets/Herooo.png)
+![Hero Section](./src/assets/Herooo.PNG)
 
 ---
 
