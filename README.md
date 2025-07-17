@@ -1,12 +1,43 @@
-# React + Vite
+# 🏋️ Gym Website (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive fitness & gym website built using **React.js**, **Framer Motion**, and **EmailJS**. The site features animated counters, smooth scrolling, and dynamic sections to attract users and collect contact/join requests without any backend.
 
-Currently, two official plugins are available:
+![Hero Section](./src/assets/hero_image.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Animated hero section with engaging visuals
+- 📈 Count-up counters for coaches, members, and programs
+- 🎯 Smooth scrolling between sections using `react-scroll`
+- ✉️ Form integration using **EmailJS** for direct email messaging from frontend
+- 📱 Fully responsive design across devices
+- 🎨 Styled with custom CSS and Framer Motion animations
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js**
+- **Vite**
+- **Framer Motion**
+- **React-Scroll**
+- **EmailJS**
+- **CSS Modules**
+
+---
+
+## 📩 EmailJS Integration
+
+The site uses [EmailJS](https://www.emailjs.com/) to send form submissions directly to the gym owner's email without needing a backend. You just need to:
+
+1. Create an EmailJS account
+2. Set up a service, template, and public key
+3. Add the credentials in your form component
+4. It handles form submissions via frontend securely
+
+---
+
+## 📁 Folder Structure
+
