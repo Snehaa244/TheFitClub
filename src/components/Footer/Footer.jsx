@@ -1,9 +1,9 @@
 import React from 'react';
 import './Footer.css';
 import Github from "../../assets/github.png";
-import Instagram from "../../assets/Instagram.png";
-import Linkdin from "../../assets/Linkdin.png";
-import Logo from "../../assets/Logo.png";
+import Instagram from "../../assets/instagram.png";
+import Linkdin from "../../assets/linkdin.png";
+import Logo from "../../assets/logo.png";
 
 const Footer = () => {
   return (
